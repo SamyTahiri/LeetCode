@@ -1,5 +1,5 @@
-public class TwoSum() {
-    public static void main(String[] args) {
-	System.out.println("");
-    }
-} 
+public class TwoSum {
+  public static void main(String[] args) {
+    System.out.println("TwoSum, test");
+  }
+}
