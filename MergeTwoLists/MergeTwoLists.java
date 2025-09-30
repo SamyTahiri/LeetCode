@@ -5,11 +5,12 @@ public class MergeTwoLists {
     ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
     ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
 
-    ListNode mergedLists = merge(list1, list2);
-
     printList(list1);
     printList(list2);
-    printList(mergedLists);
+
+    ListNode mergedLists = merge(list1, list2);
+    printlist(mergedlists);
+
   }
 
   public static ListNode merge(ListNode list1, ListNode list2) {
