@@ -1,3 +1,5 @@
+package LinkedLists;
+
 public class RemoveLinkedDuplicates {
   public static void main(String[] args) {
 
