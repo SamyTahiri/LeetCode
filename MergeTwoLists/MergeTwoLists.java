@@ -1,3 +1,5 @@
+package MergeTwoLists;
+
 public class MergeTwoLists {
 
   public static void main(String[] args) {
@@ -9,7 +11,7 @@ public class MergeTwoLists {
     printList(list2);
 
     ListNode mergedLists = merge(list1, list2);
-    printlist(mergedlists);
+    printList(mergedLists);
 
   }
 
